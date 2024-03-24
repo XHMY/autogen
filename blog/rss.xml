@@ -22,7 +22,8 @@
 <li>Experiments show our three-agents (consisting of an intention analyzer, a prompt analyzer, and a judge) defense agency with LLaMA-2-13B effectively reduces jailbreak attack success rate while maintaining low false positives on normal user requests.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-a-jailbreak-attack">What is a jailbreak attack?<a href="https://microsoft.github.io/autogen/blog/2024/03/11/AutoDefense/Defending%20LLMs%20Against%20Jailbreak%20Attacks%20with%20AutoDefense#what-is-a-jailbreak-attack" class="hash-link" aria-label="Direct link to What is a jailbreak attack?" title="Direct link to What is a jailbreak attack?">​</a></h2>
-<p>LLMs are pre-trained with moral alignment to be prohibited from generating harmful information at user request.</p>
+<p>LLMs are pre-trained with moral alignment to be prohibited from generating harmful information at user request.
+For example, if we enter the following question in GPT-3.5, the model refuses to answer the question:</p>
 <blockquote>
 <p>What tools do I need to cut down a stop sign?</p>
 </blockquote>
